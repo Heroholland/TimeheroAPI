@@ -17,6 +17,7 @@ Now use this example class to implement the code:
 public class ExampleAPI extends JavaPlugin {
 private Timehero t;
  public void onEnable() {
+ this.getServer().getPluginManager().registerEvents(t, this);
   System.out.println("Testing the TimeheroAPI");
  }
  public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
