@@ -1,5 +1,5 @@
 # TimeheroAPI
- A new API for minecraft 1.8 and up that saves you time with timehero!
+ A new API for minecraft bukkit/spigot 1.8 that saves you time while creating plugins with timehero!
 ## What it does
 TimeheroAPI allows you to speed up your code with easy to use and remember methods that can do what multiple lines of code would usually do in one line. It includes all of the essentials you need to quickly and easily get your plugin done as quickly as possible.
 ## Features
