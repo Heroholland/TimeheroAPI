@@ -23,7 +23,8 @@ private Timehero t;
  public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
   Player player = (Player) sender;
   //IMPLEMENT TIMEHERO API
-  t = new Timehero(player);
+  t = new Timehero();
+  t.setPlayer(player);
   //CREATE A TIMEHERO OBJECT.
   //TIMEHERO NEEDS THE PLAYER TO SAVE TIME FOR YOU BY REMEMBERING THE PLAYER FOR YOU.
  }
@@ -39,7 +40,8 @@ private Timehero t;
  public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
   Player player = (Player) sender;
   //IMPLEMENT TIMEHERO API
-  t = new Timehero(player);
+  t = new Timehero();
+  t.setPlayer(player);
   //TIMEHERO NEEDS THE PLAYER TO SAVE TIME FOR YOU BY REMEMBERING THE PLAYER FOR YOU.
   if (t.checkCommand(cmd, "timeherotest") {
   //ABOVE IS AN EXAMPLE OF TIMEHERO API SAVING TIME.
